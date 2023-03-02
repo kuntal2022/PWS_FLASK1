@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <table border="2">
+        <h1>FINAL RESULT</h1>
+        
+    {% for key, value in result.items() %} 
+    <tr>
+    <th><h1>{{ key }}</h1></th>
+    <th><h2>{{ value }}</h2></th>
+</tr> {% endfor %}
+</table>
+</body>
+<style>
+body{background-color: tomato; text-align: center; background-size: cover;}
+table{border-width: 150px;border-style: double;font-size: 20;
+display: inline-block;
+
+text-align: center;
+}
+
+
+</style>
+
+</html>

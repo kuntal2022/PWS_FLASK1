@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+
+<html>
+<head><h1 style="color: brown;">  Result Checker </h1></head><br><br>
+<head>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<script>
+    alert("The Page Has Been Loaded")
+</script>
+
+</head>
+
+<body>
+
+<form action="submit" method="POST"> 
+
+<label for = 'math'>MATHS:</label>
+<input type="text" name="math" id="math" value="0"><br><br>
+<label for = 'bio'>BIOLOGY:</label>
+<input type="txt" name="bio" id="bio" value="0"><br><br>
+<label for = 'geo'>GEOGRAPHY:</label>
+<input type="text" name="geo" id="geo" value="0"><br><br>
+<label for = 'c'>C:</label>
+<input type="text" name="c" id="c" value="0"><br><br>
+<label for = 'others'>OTHERS:</label>
+<input type="text" name="others" id="others" value="0"><br><br><br>
+
+<input type="submit" value="SUBMIT">
+
+</form>
+
+
+
+</body>
+
+
+
+
+
+
+</html>

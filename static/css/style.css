@@ -1,0 +1,18 @@
+
+
+body{background-color: aqua;text-align: center;
+background-size: cover;backdrop-filter: 100%;}
+
+form{text-align: center; width: 100%; font-size: 15px; font-style: oblique;width: 100%;}
+input{text-align: center;font-size: 10;}
+select{text-align: center;}
+label{font-size: 20px;
+display: inline-block;
+width: 150px;
+text-align: center;
+}
+
+input[type='SUBMIT']{background-color: red;font-size: 15;width: 30%;}
+
+
+
